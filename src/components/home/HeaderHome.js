@@ -79,7 +79,7 @@ export const HeaderHome = () => {
                                 (regitrar) ?
                                     <div>
                                         <div className='col mb-2  login_btn'>
-                                            <a>Iniciar Sesion</a>
+                                        <Link to="/admin">Iniciar Sesion</Link>
                                         </div>
                                         <div className='col mb-2'>
                                             <a className='bg-primaty text-center' onClick={() => setRegistrar(false)}  >Registrar</a>
@@ -88,7 +88,7 @@ export const HeaderHome = () => {
                                     :
                                     <div>
                                         <div className='col mb-2  login_btn'>
-                                            <a>Registrar</a>
+                                        <Link to="/admin">Registrar</Link>
                                         </div>
                                         <div className='col mb-2'>
                                             <a className='bg-primaty text-center' onClick={() => setRegistrar(true)} >Login</a>

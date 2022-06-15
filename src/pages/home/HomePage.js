@@ -23,7 +23,7 @@ export const HomePage = () => {
       <ReservaHome />{/* Componente de Reserva */}
       <OfertaHome/>{/* Componente de Oferta */}
       <EscogeHome/>{/* Componente de Escoger */}
-      <FooterHome />
+      {/* <FooterHome /> */}
     </Fragment>
   )
 }

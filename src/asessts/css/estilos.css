@@ -194,6 +194,9 @@ h1, h2, h3, h4, h5, h6{
     transition: all 1s;
     margin: 0 .5rem;
 }
+.login_btn a {
+    color: var(--white);
+}
 .login_btn:hover{
     background-color: #006ee3d3;
 }
@@ -222,9 +225,7 @@ h1, h2, h3, h4, h5, h6{
     padding:2rem;
 
 }
-.login__inf p{
 
-}
 
 /* Reserva */
 .reserva {
@@ -249,6 +250,7 @@ h1, h2, h3, h4, h5, h6{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
+    color: var(--white);
 }
 .reserva__form {
     margin: 1rem auto;
