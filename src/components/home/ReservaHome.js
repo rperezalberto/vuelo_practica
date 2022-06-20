@@ -11,9 +11,10 @@ export const ReservaHome = () => {
     useEffect(() => {
         const vueloData = async () => {
             try {
-                const url = "http://localhost:3001";
+                const url = "http://localhost:5000";
                 const resultado = await axios.get(url);
-                setDataVuelo(resultado.data);
+                const data = resultado.data.vuelos;
+                setDataVuelo(data);
                 console.log(dataVuelo);
             } catch (error) {
                 console.log(error);
@@ -64,7 +65,7 @@ export const ReservaHome = () => {
                                     <label htmlFor="txtAdonde">A donde?</label>
                                     <select className='form-select' id='txtDonde' >
                                     <option>A donde?</option>
-                                    {/* Mostramos aeropuerto actual */}
+
                                     {
                                         dataVuelo.map((e) => (
                                             <option>{e.aeropuerto_destino}</option>
