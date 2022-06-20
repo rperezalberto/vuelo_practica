@@ -123,8 +123,6 @@ export const LoginPage = () => {
 
 
                 <div className='row p-2'>
-                  <form>
-
                     <div className='col-md-6 mb-2 '>
                       <label htmlFor="txtNombre">Nombre</label>
                       <input className='form-control' onChange={(e) => handleAdd(e)} name="txtNombre" id='txtNombre' type='text' required />
@@ -145,7 +143,6 @@ export const LoginPage = () => {
                       <label htmlFor="txtTelef">Telefono</label>
                       <input className='form-control' onChange={(e) => handleAdd(e)} name="txtTelef" id='txtTelef' type='text' required/>
                     </div>
-                  </form>
                 </div>
             }
             {

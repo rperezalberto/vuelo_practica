@@ -29,7 +29,7 @@ export const UsarioAdmin = () => {
                     </div>
                 </div>
 
-                <div className='col-sm-12 col-md-10 '>
+                <div className='col-sm-12 col-md-10 userAdmin_card'>
                     <div className='text-center pt-5'>
                         <h1>Ticket de {logSession.name}</h1>
 
